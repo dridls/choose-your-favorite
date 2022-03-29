@@ -1,0 +1,66 @@
+:root {
+  /* BYOMA PALETE */
+  --BYOMA-1: #c2e5f2;
+  --BYOMA-2: #f2e399;
+  --BYOMA-3: #f2913d;
+  --BYOMA-4: #f25c05;
+  --BYOMA-5: #f24405;
+}
+
+.container {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.first-page {
+  border: 1px solid var(--BYOMA-1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-page {
+  border: 1px solid var(--BYOMA-2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.images {
+  border: 1px solid var(--BYOMA-4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-1 {
+  height: 600px;
+  width: 400px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-2 {
+  height: 600px;
+  width: 400px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
