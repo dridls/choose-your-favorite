@@ -5,35 +5,67 @@
   --BYOMA-3: #f2913d;
   --BYOMA-4: #f25c05;
   --BYOMA-5: #f24405;
+
+  --color01: #946e83;
+  --color02: #102542; 
+  --color03: #4e8098;
+  --color04: #ffb86f;
+  --color05: #f2edeb;
+
+link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Comfortaa:wght@300;700&family=Major+Mono+Display&family=Poiret+One&family=Quantico:wght@400;700&display=swap" rel="stylesheet"
+
+font-family: 'Architects Daughter', cursive;
+font-family: 'Comfortaa', cursive;
+font-family: 'Major Mono Display', monospace;
+font-family: 'Poiret One', cursive;
+font-family: 'Quantico', sans-serif;
 }
 
+h1 {
+  font-size: 80px;
+  text-shadow: 2px 2px var(--BYOMA-1);
+  align-items: left;
+  padding: 0 20px;
+}
+h2 {
+  color: var(--BYOMA-1)
+}
 .container {
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0;
   padding: 0;
+  font-family: 'Poiret One', Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 .first-page {
-  border: 1px solid var(--BYOMA-1);
+ background-color: var(--color03);
+ color: var(--color04);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+  width:100vw;
+  margin: 0;
+  padding: 0;
 }
 
 .second-page {
-  border: 1px solid var(--BYOMA-2);
+ 
+  color: var(--color02);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+  width:100vw;
 }
 
 .images {
-  border: 1px solid var(--BYOMA-4);
+  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -59,3 +91,22 @@
   align-items: center;
   justify-content: center;
 }
+.input-number {
+  font-family: 'Poiret One', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.start-btn {
+  font-family: 'Poiret One', Verdana, Geneva, Tahoma, sans-serif;
+  margin: 20px;
+  background-color: var(--color02);
+  color: var(--color05)
+}
+
+.hidden {
+  display: none;
+}
+
+.message {
+  color: var(--color02)
+}
+

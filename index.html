@@ -5,24 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&family=Major+Mono+Display&family=Poiret+One&family=Quantico:wght@400;700&display=swap" rel="stylesheet">
     <title>Vacations</title>
   </head>
   <body>
      <div class="container"> 
        <div class="first-page"> 
-           <h1>How do you want to spend your next vacations?</h1>
-           <h2>What is your name?</h2>
-           <input class="input-name" type="text"></input>
            
+           <h1>How would you like to spend your next vacation?</h1>
+
            <h2>How many destinations do you want to explore?</h2>
-            <input class="input-number" type="text"></input>
-            <button class="start-btn"></button>
+            <input class="input-number" type="number" name="quantity" min="2" max="20"></input>
+            <button class="start-btn">Explore the destinations</button>
        </div>
        <div class="second-page">
-        <h1>How do you want to spend your next vacations?</h1>
+        <h2 class="message">Which do you prefer?</h2>
         <div class="images">
             
             
+        </div>
+        <div class="message-box">
+
         </div>
        </div>
      </div>
