@@ -22,10 +22,14 @@ font-family: 'Quantico', sans-serif;
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 60px;
   text-shadow: 2px 2px var(--BYOMA-1);
-  align-items: left;
-  padding: 0 20px;
+  align-items: center;
+  padding: 0 60px;
+  text-align: left;
+  font-family: 'Lexend Zetta', sans-serif;
+  font-weight: bold;
+  
 }
 h2 {
   color: var(--BYOMA-1)
@@ -96,6 +100,7 @@ h2 {
   font-size: 30px;
   color: var(--color02);
 }
+
 
 .start-btn {
   font-family: 'Poiret One', Verdana, Geneva, Tahoma, sans-serif;
