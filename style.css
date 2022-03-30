@@ -93,13 +93,18 @@ h2 {
 }
 .input-number {
   font-family: 'Poiret One', Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  color: var(--color02);
 }
 
 .start-btn {
   font-family: 'Poiret One', Verdana, Geneva, Tahoma, sans-serif;
   margin: 20px;
+  padding: 10px;
+  font-size: 20px;
   background-color: var(--color02);
-  color: var(--color05)
+  color: var(--color05);
+  
 }
 
 .hidden {
